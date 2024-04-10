@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\src\\_personal\\NSubstitute_XUnitEquivalence\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3751DBB-5E37-46E5-B6D2-0B8AD9C6CA80}|NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj|c:\\src\\_personal\\nsubstitute_xunitequivalence\\nsubstitute_xunitequivalence\\testexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3751DBB-5E37-46E5-B6D2-0B8AD9C6CA80}|NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj|solutionrelative:nsubstitute_xunitequivalence\\testexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3751DBB-5E37-46E5-B6D2-0B8AD9C6CA80}|NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj|c:\\src\\_personal\\nsubstitute_xunitequivalence\\nsubstitute_xunitequivalence\\lib\\xunitequivalentargumentmatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3751DBB-5E37-46E5-B6D2-0B8AD9C6CA80}|NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj|solutionrelative:nsubstitute_xunitequivalence\\lib\\xunitequivalentargumentmatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3751DBB-5E37-46E5-B6D2-0B8AD9C6CA80}|NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj|c:\\src\\_personal\\nsubstitute_xunitequivalence\\nsubstitute_xunitequivalence\\lib\\argext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3751DBB-5E37-46E5-B6D2-0B8AD9C6CA80}|NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj|solutionrelative:nsubstitute_xunitequivalence\\lib\\argext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3751DBB-5E37-46E5-B6D2-0B8AD9C6CA80}|NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj|c:\\src\\_personal\\nsubstitute_xunitequivalence\\nsubstitute_xunitequivalence\\nsubstitute_xunitequivalence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3751DBB-5E37-46E5-B6D2-0B8AD9C6CA80}|NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj|solutionrelative:nsubstitute_xunitequivalence\\nsubstitute_xunitequivalence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1296,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NSubstitute_XUnitEquivalence",
+              "DocumentMoniker": "C:\\src\\_personal\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj",
+              "RelativeDocumentMoniker": "NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj",
+              "ToolTip": "C:\\src\\_personal\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj",
+              "RelativeToolTip": "NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T16:38:09.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XUnitEquivalentArgumentMatcher.cs",
+              "DocumentMoniker": "C:\\src\\_personal\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence\\Lib\\XUnitEquivalentArgumentMatcher.cs",
+              "RelativeDocumentMoniker": "NSubstitute_XUnitEquivalence\\Lib\\XUnitEquivalentArgumentMatcher.cs",
+              "ToolTip": "C:\\src\\_personal\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence\\Lib\\XUnitEquivalentArgumentMatcher.cs",
+              "RelativeToolTip": "NSubstitute_XUnitEquivalence\\Lib\\XUnitEquivalentArgumentMatcher.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:31:52.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestExample.cs",
+              "DocumentMoniker": "C:\\src\\_personal\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence\\TestExample.cs",
+              "RelativeDocumentMoniker": "NSubstitute_XUnitEquivalence\\TestExample.cs",
+              "ToolTip": "C:\\src\\_personal\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence\\TestExample.cs",
+              "RelativeToolTip": "NSubstitute_XUnitEquivalence\\TestExample.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:22:15.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArgExt.cs",
+              "DocumentMoniker": "C:\\src\\_personal\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence\\Lib\\ArgExt.cs",
+              "RelativeDocumentMoniker": "NSubstitute_XUnitEquivalence\\Lib\\ArgExt.cs",
+              "ToolTip": "C:\\src\\_personal\\NSubstitute_XUnitEquivalence\\NSubstitute_XUnitEquivalence\\Lib\\ArgExt.cs",
+              "RelativeToolTip": "NSubstitute_XUnitEquivalence\\Lib\\ArgExt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:20:45.147Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1296,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 763,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
