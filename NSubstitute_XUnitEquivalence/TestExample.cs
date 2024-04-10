@@ -1,4 +1,5 @@
 ﻿using NSubstitute;
+using NSubstitute_XUnitEquivalence.Lib;
 using Xunit;
 
 namespace NSubstitute_XUnitEquivalence
@@ -13,28 +14,21 @@ namespace NSubstitute_XUnitEquivalence
 
             sut.Call();
 
-            //_dependency.Received(1).Call(ArgExt.IsEquivalentTo(new Argument
-            //{
-            //    Id = 1,
-            //    SubArgs = new SubArgument[]
-            //    {
-            //        new()
-            //        {
-            //            Id = 2
-            //        },
-            //        new()
-            //        {
-            //            Id = 3
-            //        }
-            //    }
-            //}));
-
-            dependency.Received(1).Call(Arg.Is<Argument>(p =>
-                p.Id == 1 &&
-                p.SubArgs.Length == 2 &&
-                p.SubArgs[0].Id == 2 &&
-                p.SubArgs[1].Id == 3
-            ));
+            dependency.Received(1).Call(ArgExt.IsEquivalentTo(new Argument
+            {
+                Id = 1,
+                SubArgs = new SubArgument[]
+                {
+                    new()
+                    {
+                        Id = 2
+                    },
+                    new()
+                    {
+                        Id = 3
+                    }
+                }
+            }));
         }
     }
 
