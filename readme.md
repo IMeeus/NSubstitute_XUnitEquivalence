@@ -2,9 +2,9 @@
 
 ## Motivation
 
-Can't do deep equivalency checks in NSubstitute...
+Can't do deep equivalency checks with NSubstitute...
 
-## Comparison with traditional NSubstitute
+## Comparison with Arg.Is<T>
 
 ### Before
 
@@ -65,5 +65,11 @@ dependency.Received(1).Call(ArgExt.IsEquivalentTo(new Argument
 
 ```
 
+## Conclusion
 
+Admit it, you can't see what's wrong in the first error message when using `Arg.Is<T>`.
+`ArgExt.IsEquivalentTo` uses XUnit's `Assert.Equivalent()` under the hood, and passes through its error message.
 
+Forget `Arg.Is<T>` and just use `ArgExt.IsEquivalentTo` for everything. It works for value types, reference types, enums, whatever...
+No more overthinking and also much easier to write when doing Test Driven Design.
+Prove me wrong.
