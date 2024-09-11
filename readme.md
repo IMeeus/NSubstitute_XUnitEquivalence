@@ -73,6 +73,3 @@ Similar issue:
 What is `Assert.Equivalent`? From the [docs](https://xunit.net/docs/comparisons): 
 
 > Assert.Equivalent differs from Assert.Equal in the “level of equality” that is expected from the two values. For example, Assert.Equal requires that both values are the same (or a compatible) type, whereas Assert.Equivalent will simply compare all the public fields and properties of the two values to ensure they contain the same values, even if they aren’t the same type. Equivalence comes with a “strictness” switch which allows the developer to say whether the expected value contains the complete set of values that the actual value should contain (‘strict’) vs. only a subset of values (‘not strict’). When strict comparisons are done, an “extra” properties on the actual object vs. the expected object cause failure, whereas they are ignored for non-strict comparisons.
-
-`ArgExt.IsEquivalentTo` works for everything: value types, reference types, collections, dictionaries, ... <br/>
-The code is also much easier to read and write.

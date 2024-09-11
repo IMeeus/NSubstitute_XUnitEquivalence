@@ -21,7 +21,7 @@ namespace NSubstitute_XUnitEquivalence.Lib
         {
             try
             {
-                Assert.Equivalent(_expected, argument);
+                Assert.Equivalent(_expected, argument, strict: true);
                 return true;
             }
             catch (Exception e)
