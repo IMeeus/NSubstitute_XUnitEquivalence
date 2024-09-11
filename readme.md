@@ -67,17 +67,14 @@ dependency.Received(1).Call(ArgExt.IsEquivalentTo(new Argument
 
 ## Conclusion
 
-Admit it, with `Arg.Is<T>` you can't see what's wrong when your test fails, because it just checks whether the boolean is true/false.<br/>
+Admit it, in the stacktrace of `Arg.Is<T>` you can't see what caused your parameters not to match.<br/>
 `ArgExt.IsEquivalentTo` uses XUnit's `Assert.Equivalent()` under the hood, and passes through a more detailed error message.
 
 [Assert.Equivalent GitHub Issue](https://github.com/xunit/xunit/issues/1604#issue-285614396)
 
 From the [docs](https://xunit.net/docs/comparisons): 
 
-> Assert.Equivalent differs from Assert.Equal is the “level of equality” that is expected from the two values. For example, Assert.Equal requires that both values are the same (or a compatible) type, whereas Assert.Equivalent will simply compare all the public fields and properties of the two values to ensure they contain the same values, even if they aren’t the same type. Equivalence comes with a “strictness” switch which allows the developer to say whether the expected value contains the complete set of values that the actual value should contain (‘strict’) vs. only a subset of values (‘not strict’). When strict comparisons are done, an “extra” properties on the actual object vs. the expected object cause failure, whereas they are ignored for non-strict comparisons.
+> Assert.Equivalent differs from Assert.Equal in the “level of equality” that is expected from the two values. For example, Assert.Equal requires that both values are the same (or a compatible) type, whereas Assert.Equivalent will simply compare all the public fields and properties of the two values to ensure they contain the same values, even if they aren’t the same type. Equivalence comes with a “strictness” switch which allows the developer to say whether the expected value contains the complete set of values that the actual value should contain (‘strict’) vs. only a subset of values (‘not strict’). When strict comparisons are done, an “extra” properties on the actual object vs. the expected object cause failure, whereas they are ignored for non-strict comparisons.
 
-Forget `Arg.Is<T>` and just use `ArgExt.IsEquivalentTo` for everything. <br/>
-It works for value types, reference types, collections, dictionaries, whatever... <br/>
-Also much easier to read and write when doing Test Driven Design.
-
-Prove me wrong.
+`ArgExt.IsEquivalentTo` works for everything: value types, reference types, collections, dictionaries, ... <br/>
+The code is also much easier to read and write.
