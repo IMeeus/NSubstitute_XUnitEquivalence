@@ -1,12 +1,8 @@
 # NSubstitute XUnitEquivalence
 
-## Motivation
+## Problem
 
-Can't do deep equivalency checks with NSubstitute...
-
-## Comparison with Arg.Is<T>
-
-### Before
+`Arg.Is<T>` doesn't do deep equivalency checks and has a limited stacktrace.
 
 ```cs
 var dependency = Substitute.For<IDependency>();
@@ -29,7 +25,7 @@ dependency.Received(1).Call(Arg.Is<Argument>(p =>
 /// 	Call(*Argument*)
 ```
 
-### After
+In this stacktrace you can't see what caused your parameters not to match. This repository provides an extension on NSubstitute, `ArgExt.IsEquivalentTo`, which uses XUnit's `Assert.Equivalent()` under the hood, and passes through a more detailed error message.
 
 ```cs
 var dependency = Substitute.For<IDependency>();
@@ -65,14 +61,14 @@ dependency.Received(1).Call(ArgExt.IsEquivalentTo(new Argument
 
 ```
 
-## Conclusion
+## Notes
 
-Admit it, in the stacktrace of `Arg.Is<T>` you can't see what caused your parameters not to match.<br/>
-`ArgExt.IsEquivalentTo` uses XUnit's `Assert.Equivalent()` under the hood, and passes through a more detailed error message.
+Only use this in a project that has a dependency on XUnit.
 
+Similar issue:
 [Assert.Equivalent GitHub Issue](https://github.com/xunit/xunit/issues/1604#issue-285614396)
 
-From the [docs](https://xunit.net/docs/comparisons): 
+What is `Assert.Equivalent`? From the [docs](https://xunit.net/docs/comparisons): 
 
 > Assert.Equivalent differs from Assert.Equal in the “level of equality” that is expected from the two values. For example, Assert.Equal requires that both values are the same (or a compatible) type, whereas Assert.Equivalent will simply compare all the public fields and properties of the two values to ensure they contain the same values, even if they aren’t the same type. Equivalence comes with a “strictness” switch which allows the developer to say whether the expected value contains the complete set of values that the actual value should contain (‘strict’) vs. only a subset of values (‘not strict’). When strict comparisons are done, an “extra” properties on the actual object vs. the expected object cause failure, whereas they are ignored for non-strict comparisons.
 
