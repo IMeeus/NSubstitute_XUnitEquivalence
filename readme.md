@@ -61,6 +61,8 @@ dependency.Received(1).Call(ArgExt.IsEquivalentTo(new Argument
 
 ```
 
+This code is also easier to read/write, in comparison with a lambda. Lambda's are annoying when dealing with collections such as array and dictionaries.
+
 ## Notes
 
 Only use this in a project that has a dependency on XUnit.
